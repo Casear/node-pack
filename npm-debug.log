@@ -1,0 +1,589 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/casearchu/.nvm/v0.10.0/bin/node',
+1 verbose cli   '/Users/casearchu/.nvm/v0.10.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'phantomjs' ]
+2 info using npm@1.2.14
+3 info using node@v0.10.0
+4 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/package.json
+5 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/grunt/package.json
+6 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/grunt-contrib-coffee/package.json
+7 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/grunt-contrib-jasmine/package.json
+8 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/grunt-contrib-watch/package.json
+9 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/grunt-regarde/package.json
+10 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/package.json
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'phantomjs', null ]
+13 verbose cache add name=undefined spec="phantomjs" args=["phantomjs",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'phantomjs',
+14 verbose parsed url   path: 'phantomjs',
+14 verbose parsed url   href: 'phantomjs' }
+15 silly lockFile 30d7cd7d-phantomjs phantomjs
+16 verbose lock phantomjs /Users/casearchu/.npm/30d7cd7d-phantomjs.lock
+17 silly lockFile 30d7cd7d-phantomjs phantomjs
+18 silly lockFile 30d7cd7d-phantomjs phantomjs
+19 verbose addNamed [ 'phantomjs', '' ]
+20 verbose addNamed [ null, '' ]
+21 silly lockFile 29cf7fd6-phantomjs phantomjs@
+22 verbose lock phantomjs@ /Users/casearchu/.npm/29cf7fd6-phantomjs.lock
+23 silly addNameRange { name: 'phantomjs', range: '', hasData: false }
+24 verbose url raw phantomjs
+25 verbose url resolving [ 'https://registry.npmjs.org/', './phantomjs' ]
+26 verbose url resolved https://registry.npmjs.org/phantomjs
+27 info trying registry request attempt 1 at 12:46:23
+28 verbose etag "3A0MKNT28G998Z8366PILJMPV"
+29 http GET https://registry.npmjs.org/phantomjs
+30 http 304 https://registry.npmjs.org/phantomjs
+31 silly registry.get cb [ 304,
+31 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+31 silly registry.get     etag: '"3A0MKNT28G998Z8366PILJMPV"',
+31 silly registry.get     date: 'Tue, 16 Apr 2013 04:46:26 GMT',
+31 silly registry.get     'content-length': '0' } ]
+32 verbose etag phantomjs from cache
+33 silly addNameRange number 2 { name: 'phantomjs', range: '', hasData: true }
+34 silly addNameRange versions [ 'phantomjs',
+34 silly addNameRange   [ '0.0.1',
+34 silly addNameRange     '0.0.2',
+34 silly addNameRange     '0.0.3',
+34 silly addNameRange     '0.0.4',
+34 silly addNameRange     '0.0.5',
+34 silly addNameRange     '0.0.6',
+34 silly addNameRange     '0.0.7',
+34 silly addNameRange     '0.0.8',
+34 silly addNameRange     '0.0.9',
+34 silly addNameRange     '0.1.0',
+34 silly addNameRange     '0.1.1',
+34 silly addNameRange     '0.2.0',
+34 silly addNameRange     '0.2.1',
+34 silly addNameRange     '0.2.2',
+34 silly addNameRange     '0.2.3',
+34 silly addNameRange     '0.2.4',
+34 silly addNameRange     '0.2.5',
+34 silly addNameRange     '0.2.6',
+34 silly addNameRange     '1.8.0-1',
+34 silly addNameRange     '1.8.1-1',
+34 silly addNameRange     '1.8.1-2',
+34 silly addNameRange     '1.8.1-3',
+34 silly addNameRange     '1.8.2-0',
+34 silly addNameRange     '1.8.2-1',
+34 silly addNameRange     '1.8.2-2',
+34 silly addNameRange     '1.9.0-0',
+34 silly addNameRange     '1.9.0-1',
+34 silly addNameRange     '1.9.0-2' ] ]
+35 verbose addNamed [ 'phantomjs', '1.9.0-2' ]
+36 verbose addNamed [ '1.9.0-2', '1.9.0-2' ]
+37 silly lockFile 51e8c62c-phantomjs-1-9-0-2 phantomjs@1.9.0-2
+38 verbose lock phantomjs@1.9.0-2 /Users/casearchu/.npm/51e8c62c-phantomjs-1-9-0-2.lock
+39 verbose read json /Users/casearchu/.npm/phantomjs/1.9.0-2/package/package.json
+40 silly lockFile 51e8c62c-phantomjs-1-9-0-2 phantomjs@1.9.0-2
+41 silly lockFile 51e8c62c-phantomjs-1-9-0-2 phantomjs@1.9.0-2
+42 silly lockFile 29cf7fd6-phantomjs phantomjs@
+43 silly lockFile 29cf7fd6-phantomjs phantomjs@
+44 silly resolved [ { name: 'phantomjs',
+44 silly resolved     version: '1.9.0-2',
+44 silly resolved     keywords: [ 'phantomjs', 'headless', 'webkit' ],
+44 silly resolved     description: 'Headless WebKit with JS API',
+44 silly resolved     homepage: 'https://github.com/Obvious/phantomjs',
+44 silly resolved     repository: { type: 'git', url: 'git://github.com/Obvious/phantomjs.git' },
+44 silly resolved     licenses: [ [Object] ],
+44 silly resolved     author:
+44 silly resolved      { name: 'Dan Pupius',
+44 silly resolved        email: 'dan@obvious.com',
+44 silly resolved        url: 'http://pupius.co.uk' },
+44 silly resolved     maintainers: [ [Object] ],
+44 silly resolved     main: 'lib/phantomjs',
+44 silly resolved     bin: { phantomjs: './bin/phantomjs' },
+44 silly resolved     scripts:
+44 silly resolved      { install: 'node install.js',
+44 silly resolved        test: 'nodeunit --reporter=minimal test/tests.js' },
+44 silly resolved     dependencies: { rimraf: '~2.0.2', 'adm-zip': '0.2.1' },
+44 silly resolved     devDependencies: { nodeunit: '~0.7.4' },
+44 silly resolved     readme: 'phantom\n=======\n\nAn NPM wrapper for [PhantomJS](http://phantomjs.org/), headless webkit with JS API.\n\nBuilding and Installing\n-----------------------\n\n```shell\nnpm install phantomjs\n```\n\nOr grab the source and\n\n```shell\nnode ./install.js\n```\n\nWhat this is really doing is just grabbing a particular "blessed" (by\nthis module) version of Phantom. As new versions of Phantom are released\nand vetted, this module will be updated accordingly.\n\nThe package has been set up to fetch and run Phantom for MacOS (darwin),\nLinux based platforms (as identified by nodejs), and -- as of version 0.2.0 --\nWindows (thanks to [Domenic Denicola](https://github.com/domenic)).  If you\nspot any platform weirdnesses, let us know or send a patch.\n\nRunning\n-------\n\n```shell\nbin/phantom [phantom arguments]\n```\n\nAnd npm will install a link to the binary in `node_modules/.bin` as\nit is wont to do.\n\nRunning via node\n----------------\n\nThe package exports a `path` string that contains the path to the\nphantomjs binary/executable.\n\nBelow is an example of using this package via node.\n\n```javascript\nvar childProcess = require(\'child_process\')\nvar phantomjs = require(\'phantomjs\')\nvar binPath = phantomjs.path\n\nvar childArgs = [\n  path.join(__dirname, \'phantomjs-script.js\'),\n  \'some other argument (passed to phantomjs script)\'\n]\n\nchildProcess.execFile(binPath, childArgs, function(err, stdout, stderr) {\n  // handle results\n})\n\n```\n\nVersioning\n----------\n\nThe NPM package version tracks the version of PhantomJS that will be installed,\nwith an additional build number that is used for revisions to the installer.\n\nAs such `1.8.0-1` will `1.8.0-2` will both install PhantomJs 1.8 but the latter\nhas newer changes to the installer.\n\nA Note on PhantomJS\n-------------------\n\nPhantomJS is not a library for NodeJS.  It\'s a separate environment and code\nwritten for node is unlikely to be compatible.  In particular PhantomJS does\nnot expose a Common JS package loader.\n\nThis is an _NPM wrapper_ and can be used to conveniently make Phantom available\nIt is not a Node JS wrapper.\n\nI have had reasonable experiences writing standalone Phantom scripts which I\nthen drive from within a node program by spawning phantom in a child process.\n\nRead the PhantomJS FAQ for more details: http://phantomjs.org/faq.html\n\nContributing\n------------\n\nQuestions, comments, bug reports, and pull requests are all welcome.  Submit them at\n[the project on GitHub](https://github.com/Obvious/phantomjs/).  If you haven\'t contributed to an\n[Obvious](http://github.com/Obvious/) project before please head over to the\n[Open Source Project](https://github.com/Obvious/open-source#note-to-external-contributors) and fill\nout an OCLA (it should be pretty painless).\n\nBug reports that include steps-to-reproduce (including code) are the\nbest. Even better, make them in the form of pull requests.\n\nAuthor\n------\n\n[Dan Pupius](https://github.com/dpup)\n([personal website](http://pupius.co.uk)), supported by\n[The Obvious Corporation](http://obvious.com/).\n\nLicense\n-------\n\nCopyright 2012 [The Obvious Corporation](http://obvious.com/).\n\nLicensed under the Apache License, Version 2.0.\nSee the top-level file `LICENSE.txt` and\n(http://www.apache.org/licenses/LICENSE-2.0).\n',
+44 silly resolved     readmeFilename: 'README.md',
+44 silly resolved     _id: 'phantomjs@1.9.0-2',
+44 silly resolved     _from: 'phantomjs@' } ]
+45 info install phantomjs@1.9.0-2 into /Volumes/Data/Cloud/Project/github/node-pack
+46 info installOne phantomjs@1.9.0-2
+47 verbose from cache /Users/casearchu/.npm/phantomjs/1.9.0-2/package/package.json
+48 info /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs unbuild
+49 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/package.json
+50 verbose tar unpack /Users/casearchu/.npm/phantomjs/1.9.0-2/package.tgz
+51 silly lockFile 2cd8f2a5-node-pack-node-modules-phantomjs /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs
+52 verbose lock /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs /Users/casearchu/.npm/2cd8f2a5-node-pack-node-modules-phantomjs.lock
+53 silly lockFile c86fd990-pm-phantomjs-1-9-0-2-package-tgz /Users/casearchu/.npm/phantomjs/1.9.0-2/package.tgz
+54 verbose lock /Users/casearchu/.npm/phantomjs/1.9.0-2/package.tgz /Users/casearchu/.npm/c86fd990-pm-phantomjs-1-9-0-2-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry .npmignore
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry install.js
+60 silly gunzTarPerm extractEntry .jshintrc
+61 silly gunzTarPerm extractEntry bin/phantomjs
+62 silly gunzTarPerm extractEntry lib/phantomjs.js
+63 silly gunzTarPerm extractEntry LICENSE.txt
+64 silly gunzTarPerm extractEntry test/loadspeed.js
+65 silly gunzTarPerm extractEntry test/tests.js
+66 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/package.json
+67 silly lockFile 2cd8f2a5-node-pack-node-modules-phantomjs /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs
+68 silly lockFile 2cd8f2a5-node-pack-node-modules-phantomjs /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs
+69 silly lockFile c86fd990-pm-phantomjs-1-9-0-2-package-tgz /Users/casearchu/.npm/phantomjs/1.9.0-2/package.tgz
+70 silly lockFile c86fd990-pm-phantomjs-1-9-0-2-package-tgz /Users/casearchu/.npm/phantomjs/1.9.0-2/package.tgz
+71 info preinstall phantomjs@1.9.0-2
+72 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/package.json
+73 verbose readDependencies using package.json deps
+74 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/package.json
+75 verbose readDependencies using package.json deps
+76 verbose cache add [ 'rimraf@~2.0.2', null ]
+77 verbose cache add name=undefined spec="rimraf@~2.0.2" args=["rimraf@~2.0.2",null]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: 'rimraf@~2.0.2',
+78 verbose parsed url   path: 'rimraf@~2.0.2',
+78 verbose parsed url   href: 'rimraf@~2.0.2' }
+79 verbose cache add name="rimraf" spec="~2.0.2" args=["rimraf","~2.0.2"]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: '~2.0.2',
+80 verbose parsed url   path: '~2.0.2',
+80 verbose parsed url   href: '~2.0.2' }
+81 verbose addNamed [ 'rimraf', '~2.0.2' ]
+82 verbose addNamed [ null, '>=2.0.2- <2.1.0-' ]
+83 silly lockFile 723423b4-rimraf-2-0-2 rimraf@~2.0.2
+84 verbose lock rimraf@~2.0.2 /Users/casearchu/.npm/723423b4-rimraf-2-0-2.lock
+85 verbose cache add [ 'adm-zip@0.2.1', null ]
+86 verbose cache add name=undefined spec="adm-zip@0.2.1" args=["adm-zip@0.2.1",null]
+87 verbose parsed url { protocol: null,
+87 verbose parsed url   slashes: null,
+87 verbose parsed url   auth: null,
+87 verbose parsed url   host: null,
+87 verbose parsed url   port: null,
+87 verbose parsed url   hostname: null,
+87 verbose parsed url   hash: null,
+87 verbose parsed url   search: null,
+87 verbose parsed url   query: null,
+87 verbose parsed url   pathname: 'adm-zip@0.2.1',
+87 verbose parsed url   path: 'adm-zip@0.2.1',
+87 verbose parsed url   href: 'adm-zip@0.2.1' }
+88 verbose cache add name="adm-zip" spec="0.2.1" args=["adm-zip","0.2.1"]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: '0.2.1',
+89 verbose parsed url   path: '0.2.1',
+89 verbose parsed url   href: '0.2.1' }
+90 verbose addNamed [ 'adm-zip', '0.2.1' ]
+91 verbose addNamed [ '0.2.1', '0.2.1' ]
+92 silly lockFile 56d2b9bc-adm-zip-0-2-1 adm-zip@0.2.1
+93 verbose lock adm-zip@0.2.1 /Users/casearchu/.npm/56d2b9bc-adm-zip-0-2-1.lock
+94 silly addNameRange { name: 'rimraf', range: '>=2.0.2- <2.1.0-', hasData: false }
+95 verbose url raw rimraf
+96 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+97 verbose url resolved https://registry.npmjs.org/rimraf
+98 info trying registry request attempt 1 at 12:46:27
+99 verbose etag "DS51XMA9EUEJ34BD66AVLVDAA"
+100 http GET https://registry.npmjs.org/rimraf
+101 verbose url raw adm-zip/0.2.1
+102 verbose url resolving [ 'https://registry.npmjs.org/', './adm-zip/0.2.1' ]
+103 verbose url resolved https://registry.npmjs.org/adm-zip/0.2.1
+104 info trying registry request attempt 1 at 12:46:27
+105 verbose etag "21XJPDJR1V32RXCQ3WAHSRTMV"
+106 http GET https://registry.npmjs.org/adm-zip/0.2.1
+107 http 304 https://registry.npmjs.org/rimraf
+108 silly registry.get cb [ 304,
+108 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+108 silly registry.get     etag: '"DS51XMA9EUEJ34BD66AVLVDAA"',
+108 silly registry.get     date: 'Tue, 16 Apr 2013 04:46:29 GMT',
+108 silly registry.get     'content-length': '0' } ]
+109 verbose etag rimraf from cache
+110 silly addNameRange number 2 { name: 'rimraf', range: '>=2.0.2- <2.1.0-', hasData: true }
+111 silly addNameRange versions [ 'rimraf',
+111 silly addNameRange   [ '1.0.0',
+111 silly addNameRange     '1.0.1',
+111 silly addNameRange     '1.0.2',
+111 silly addNameRange     '1.0.4',
+111 silly addNameRange     '1.0.5',
+111 silly addNameRange     '1.0.6',
+111 silly addNameRange     '1.0.7',
+111 silly addNameRange     '1.0.8',
+111 silly addNameRange     '1.0.9',
+111 silly addNameRange     '2.0.0',
+111 silly addNameRange     '2.0.1',
+111 silly addNameRange     '2.0.2',
+111 silly addNameRange     '2.0.3',
+111 silly addNameRange     '2.1.0',
+111 silly addNameRange     '2.1.1',
+111 silly addNameRange     '2.1.2',
+111 silly addNameRange     '2.1.3',
+111 silly addNameRange     '2.1.4' ] ]
+112 verbose addNamed [ 'rimraf', '2.0.3' ]
+113 verbose addNamed [ '2.0.3', '2.0.3' ]
+114 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+115 verbose lock rimraf@2.0.3 /Users/casearchu/.npm/166fc4dd-rimraf-2-0-3.lock
+116 verbose read json /Users/casearchu/.npm/rimraf/2.0.3/package/package.json
+117 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+118 silly lockFile 166fc4dd-rimraf-2-0-3 rimraf@2.0.3
+119 silly lockFile 723423b4-rimraf-2-0-2 rimraf@~2.0.2
+120 silly lockFile 723423b4-rimraf-2-0-2 rimraf@~2.0.2
+121 http 304 https://registry.npmjs.org/adm-zip/0.2.1
+122 silly registry.get cb [ 304,
+122 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+122 silly registry.get     etag: '"21XJPDJR1V32RXCQ3WAHSRTMV"',
+122 silly registry.get     date: 'Tue, 16 Apr 2013 04:46:30 GMT',
+122 silly registry.get     'content-length': '0' } ]
+123 verbose etag adm-zip/0.2.1 from cache
+124 verbose read json /Users/casearchu/.npm/adm-zip/0.2.1/package/package.json
+125 silly lockFile 56d2b9bc-adm-zip-0-2-1 adm-zip@0.2.1
+126 silly lockFile 56d2b9bc-adm-zip-0-2-1 adm-zip@0.2.1
+127 silly resolved [ { name: 'rimraf',
+127 silly resolved     version: '2.0.3',
+127 silly resolved     main: 'rimraf.js',
+127 silly resolved     description: 'A deep deletion module for node (like `rm -rf`)',
+127 silly resolved     author:
+127 silly resolved      { name: 'Isaac Z. Schlueter',
+127 silly resolved        email: 'i@izs.me',
+127 silly resolved        url: 'http://blog.izs.me/' },
+127 silly resolved     license:
+127 silly resolved      { type: 'MIT',
+127 silly resolved        url: 'https://github.com/isaacs/rimraf/raw/master/LICENSE' },
+127 silly resolved     optionalDependencies: { 'graceful-fs': '~1.1' },
+127 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/rimraf.git' },
+127 silly resolved     scripts: { test: 'cd test && bash run.sh' },
+127 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+127 silly resolved     readme: 'A `rm -rf` for node.\n\nInstall with `npm install rimraf`, or just drop rimraf.js somewhere.\n\n## API\n\n`rimraf(f, callback)`\n\nThe callback will be called with an error if there is one.  Certain\nerrors are handled for you:\n\n* `EBUSY` -  rimraf will back off a maximum of opts.maxBusyTries times\n  before giving up.\n* `EMFILE` - If too many file descriptors get opened, rimraf will\n  patiently wait until more become available.\n\n\n## rimraf.sync\n\nIt can remove stuff synchronously, too.  But that\'s not so good.  Use\nthe async API.  It\'s better.\n',
+127 silly resolved     readmeFilename: 'README.md',
+127 silly resolved     _id: 'rimraf@2.0.3',
+127 silly resolved     dependencies: { 'graceful-fs': '~1.1' },
+127 silly resolved     _from: 'rimraf@~2.0.2' },
+127 silly resolved   { name: 'adm-zip',
+127 silly resolved     version: '0.2.1',
+127 silly resolved     description: 'A Javascript implementation of zip for nodejs. Allows user to create or extract zip files both in memory or to/from disk',
+127 silly resolved     keywords: [ 'zip', 'methods', 'archive', 'unzip' ],
+127 silly resolved     homepage: 'http://github.com/cthackers/adm-zip',
+127 silly resolved     author:
+127 silly resolved      { name: 'Nasca Iacob',
+127 silly resolved        email: 'sy@another-d-mention.ro',
+127 silly resolved        url: 'https://github.com/cthackers' },
+127 silly resolved     bugs:
+127 silly resolved      { email: 'sy@another-d-mention.ro',
+127 silly resolved        url: 'https://github.com/cthackers/adm-zip/issues' },
+127 silly resolved     licenses: [ [Object] ],
+127 silly resolved     main: 'adm-zip.js',
+127 silly resolved     repository:
+127 silly resolved      { type: 'git',
+127 silly resolved        url: 'git://github.com/git@github.com:cthackers/adm-zip.git' },
+127 silly resolved     engines: { node: '>=0.3.0' },
+127 silly resolved     readme: '# ADM-ZIP for NodeJS\r\n\r\nADM-ZIP is a pure JavaScript implementation for zip data compression for [NodeJS](http://nodejs.org/). \r\n\r\n# Installation\r\n\r\nWith [npm](http://npmjs.org) do:\r\n\r\n    $ npm install adm-zip\r\n\t\r\n## What is it good for?\r\nThe library allows you to:\r\n\r\n* decompress zip files directly to disk or in memory buffers\r\n* compress files and store them to disk in .zip format or in compressed buffers\r\n* update content of/add new/delete files from an existing .zip\r\n\r\n# Dependencies\r\nThere are no other nodeJS libraries that ADM-ZIP is dependent of\r\n\r\n# Examples\r\n\r\n## Basic usage\r\n```javascript\r\n\r\n\tvar AdmZip = require(\'adm-zip\');\r\n\r\n\t// reading archives\r\n\tvar zip = new AdmZip("./my_file.zip");\r\n\tvar zipEntries = zip.getEntries(); // an array of ZipEntry records\r\n\r\n\tzipEntries.forEach(function(zipEntry) {\r\n\t    console.log(zipEntry.toString()); // outputs zip entries information\r\n\t\tif (zipEntry.entryName == "my_file.txt") {\r\n\t\t     console.log(zipEntry.data.toString(\'utf8\')); \r\n\t\t}\r\n\t});\r\n\t// outputs the content of some_folder/my_file.txt\r\n\tconsole.log(zip.readAsText("some_folder/my_file.txt")); \r\n\t// extracts the specified file to the specified location\r\n\tzip.extractEntryTo(/*entry name*/"some_folder/my_file.txt", /*target path*/"/home/me/tempfolder", /*overwrite*/true)\r\n\t// extracts everything\r\n\tzip.extractAllTo(/*target path*/"/home/me/zipcontent/", /*overwrite*/true);\r\n\t\r\n\t\r\n\t// creating archives\r\n\tvar zip = new AdmZip();\r\n\t\r\n\t// add file directly\r\n\tzip.addFile("test.txt", new Buffer("inner content of the file"), "entry comment goes here");\r\n\t// add local file\r\n\tzip.addLocalFile("/home/me/some_picture.png");\r\n\t// get everything as a buffer\r\n\tvar willSendthis = zip.toBuffer();\r\n\t// or write everything to disk\r\n\tzip.writeZip(/*target file name*/"/home/me/files.zip");\r\n\t\r\n\t\r\n\t// ... more examples in the wiki\r\n```\r\n\r\nFor more detailed information please check out the [wiki](https://github.com/cthackers/adm-zip/wiki).\n\n[![build status](https://secure.travis-ci.org/cthackers/adm-zip.png)](http://travis-ci.org/cthackers/adm-zip)',
+127 silly resolved     readmeFilename: 'README.md',
+127 silly resolved     _id: 'adm-zip@0.2.1',
+127 silly resolved     _from: 'adm-zip@0.2.1' } ]
+128 info install rimraf@2.0.3 into /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs
+129 info install adm-zip@0.2.1 into /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs
+130 info installOne rimraf@2.0.3
+131 info installOne adm-zip@0.2.1
+132 verbose from cache /Users/casearchu/.npm/rimraf/2.0.3/package/package.json
+133 info /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf unbuild
+134 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/package.json
+135 verbose from cache /Users/casearchu/.npm/adm-zip/0.2.1/package/package.json
+136 info /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip unbuild
+137 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip/package.json
+138 verbose tar unpack /Users/casearchu/.npm/rimraf/2.0.3/package.tgz
+139 silly lockFile f5336580-es-phantomjs-node-modules-rimraf /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf
+140 verbose lock /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf /Users/casearchu/.npm/f5336580-es-phantomjs-node-modules-rimraf.lock
+141 silly lockFile a896f7fb-chu-npm-rimraf-2-0-3-package-tgz /Users/casearchu/.npm/rimraf/2.0.3/package.tgz
+142 verbose lock /Users/casearchu/.npm/rimraf/2.0.3/package.tgz /Users/casearchu/.npm/a896f7fb-chu-npm-rimraf-2-0-3-package-tgz.lock
+143 verbose tar unpack /Users/casearchu/.npm/adm-zip/0.2.1/package.tgz
+144 silly lockFile a325ffd3-s-phantomjs-node-modules-adm-zip /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip
+145 verbose lock /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip /Users/casearchu/.npm/a325ffd3-s-phantomjs-node-modules-adm-zip.lock
+146 silly lockFile a5d6d1fe-hu-npm-adm-zip-0-2-1-package-tgz /Users/casearchu/.npm/adm-zip/0.2.1/package.tgz
+147 verbose lock /Users/casearchu/.npm/adm-zip/0.2.1/package.tgz /Users/casearchu/.npm/a5d6d1fe-hu-npm-adm-zip-0-2-1-package-tgz.lock
+148 silly gunzTarPerm modes [ '755', '644' ]
+149 silly gunzTarPerm modes [ '755', '644' ]
+150 silly gunzTarPerm extractEntry package.json
+151 silly gunzTarPerm extractEntry package.json
+152 silly gunzTarPerm extractEntry README.md
+153 silly gunzTarPerm extractEntry LICENSE
+154 silly gunzTarPerm extractEntry README.md
+155 silly gunzTarPerm extractEntry zipEntry.js
+156 silly gunzTarPerm extractEntry rimraf.js
+157 silly gunzTarPerm extractEntry AUTHORS
+158 silly gunzTarPerm extractEntry sandbox.js
+159 silly gunzTarPerm extractEntry adm-zip.js
+160 silly gunzTarPerm extractEntry test/test-async.js
+161 silly gunzTarPerm extractEntry test/test-fiber.js
+162 silly gunzTarPerm extractEntry zipFile.js
+163 silly gunzTarPerm extractEntry test/test-sync.js
+164 silly gunzTarPerm extractEntry test/run.sh
+165 silly gunzTarPerm extractEntry test/setup.sh
+166 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+167 silly gunzTarPerm extractEntry methods/deflater.js
+168 silly gunzTarPerm extractEntry methods/index.js
+169 silly gunzTarPerm extractEntry methods/inflater.js
+170 silly gunzTarPerm extractEntry util/constants.js
+171 silly gunzTarPerm extractEntry util/errors.js
+172 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/package.json
+173 silly lockFile f5336580-es-phantomjs-node-modules-rimraf /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf
+174 silly lockFile f5336580-es-phantomjs-node-modules-rimraf /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf
+175 silly lockFile a896f7fb-chu-npm-rimraf-2-0-3-package-tgz /Users/casearchu/.npm/rimraf/2.0.3/package.tgz
+176 silly lockFile a896f7fb-chu-npm-rimraf-2-0-3-package-tgz /Users/casearchu/.npm/rimraf/2.0.3/package.tgz
+177 silly gunzTarPerm extractEntry util/fattr.js
+178 silly gunzTarPerm extractEntry util/index.js
+179 info preinstall rimraf@2.0.3
+180 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/package.json
+181 verbose readDependencies using package.json deps
+182 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/package.json
+183 silly gunzTarPerm extractEntry util/utils.js
+184 silly gunzTarPerm extractEntry headers/dataHeader.js
+185 verbose readDependencies using package.json deps
+186 verbose cache add [ 'graceful-fs@~1.1', null ]
+187 verbose cache add name=undefined spec="graceful-fs@~1.1" args=["graceful-fs@~1.1",null]
+188 verbose parsed url { protocol: null,
+188 verbose parsed url   slashes: null,
+188 verbose parsed url   auth: null,
+188 verbose parsed url   host: null,
+188 verbose parsed url   port: null,
+188 verbose parsed url   hostname: null,
+188 verbose parsed url   hash: null,
+188 verbose parsed url   search: null,
+188 verbose parsed url   query: null,
+188 verbose parsed url   pathname: 'graceful-fs@~1.1',
+188 verbose parsed url   path: 'graceful-fs@~1.1',
+188 verbose parsed url   href: 'graceful-fs@~1.1' }
+189 verbose cache add name="graceful-fs" spec="~1.1" args=["graceful-fs","~1.1"]
+190 verbose parsed url { protocol: null,
+190 verbose parsed url   slashes: null,
+190 verbose parsed url   auth: null,
+190 verbose parsed url   host: null,
+190 verbose parsed url   port: null,
+190 verbose parsed url   hostname: null,
+190 verbose parsed url   hash: null,
+190 verbose parsed url   search: null,
+190 verbose parsed url   query: null,
+190 verbose parsed url   pathname: '~1.1',
+190 verbose parsed url   path: '~1.1',
+190 verbose parsed url   href: '~1.1' }
+191 verbose addNamed [ 'graceful-fs', '~1.1' ]
+192 verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+193 silly lockFile 0502dd56-graceful-fs-1-1 graceful-fs@~1.1
+194 verbose lock graceful-fs@~1.1 /Users/casearchu/.npm/0502dd56-graceful-fs-1-1.lock
+195 silly addNameRange { name: 'graceful-fs',
+195 silly addNameRange   range: '>=1.1.0- <1.2.0-',
+195 silly addNameRange   hasData: false }
+196 verbose url raw graceful-fs
+197 verbose url resolving [ 'https://registry.npmjs.org/', './graceful-fs' ]
+198 verbose url resolved https://registry.npmjs.org/graceful-fs
+199 info trying registry request attempt 1 at 12:46:31
+200 verbose etag "B0F32J2XGVFC2WM31E7NOHAYB"
+201 http GET https://registry.npmjs.org/graceful-fs
+202 silly gunzTarPerm extractEntry headers/entryHeader.js
+203 silly gunzTarPerm extractEntry headers/index.js
+204 silly gunzTarPerm extractEntry headers/mainHeader.js
+205 silly gunzTarPerm extractEntry .travis.yml
+206 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip/package.json
+207 silly lockFile a325ffd3-s-phantomjs-node-modules-adm-zip /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip
+208 silly lockFile a325ffd3-s-phantomjs-node-modules-adm-zip /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip
+209 silly lockFile a5d6d1fe-hu-npm-adm-zip-0-2-1-package-tgz /Users/casearchu/.npm/adm-zip/0.2.1/package.tgz
+210 silly lockFile a5d6d1fe-hu-npm-adm-zip-0-2-1-package-tgz /Users/casearchu/.npm/adm-zip/0.2.1/package.tgz
+211 info preinstall adm-zip@0.2.1
+212 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip/package.json
+213 verbose readDependencies using package.json deps
+214 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip/package.json
+215 verbose readDependencies using package.json deps
+216 silly resolved []
+217 verbose about to build /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip
+218 info build /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip
+219 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/adm-zip/package.json
+220 verbose linkStuff [ false,
+220 verbose linkStuff   false,
+220 verbose linkStuff   false,
+220 verbose linkStuff   '/Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules' ]
+221 info linkStuff adm-zip@0.2.1
+222 verbose linkBins adm-zip@0.2.1
+223 verbose linkMans adm-zip@0.2.1
+224 verbose rebuildBundles adm-zip@0.2.1
+225 info install adm-zip@0.2.1
+226 info postinstall adm-zip@0.2.1
+227 http 304 https://registry.npmjs.org/graceful-fs
+228 silly registry.get cb [ 304,
+228 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+228 silly registry.get     etag: '"B0F32J2XGVFC2WM31E7NOHAYB"',
+228 silly registry.get     date: 'Tue, 16 Apr 2013 04:46:33 GMT',
+228 silly registry.get     'content-length': '0' } ]
+229 verbose etag graceful-fs from cache
+230 silly addNameRange number 2 { name: 'graceful-fs', range: '>=1.1.0- <1.2.0-', hasData: true }
+231 silly addNameRange versions [ 'graceful-fs',
+231 silly addNameRange   [ '1.0.0',
+231 silly addNameRange     '1.0.1',
+231 silly addNameRange     '1.0.2',
+231 silly addNameRange     '1.1.0',
+231 silly addNameRange     '1.1.1',
+231 silly addNameRange     '1.1.2',
+231 silly addNameRange     '1.1.3',
+231 silly addNameRange     '1.1.4',
+231 silly addNameRange     '1.1.5',
+231 silly addNameRange     '1.1.6',
+231 silly addNameRange     '1.1.7',
+231 silly addNameRange     '1.1.8',
+231 silly addNameRange     '1.1.9',
+231 silly addNameRange     '1.1.10',
+231 silly addNameRange     '1.1.11',
+231 silly addNameRange     '1.1.12',
+231 silly addNameRange     '1.1.13',
+231 silly addNameRange     '1.1.14',
+231 silly addNameRange     '1.2.0' ] ]
+232 verbose addNamed [ 'graceful-fs', '1.1.14' ]
+233 verbose addNamed [ '1.1.14', '1.1.14' ]
+234 silly lockFile 2cf96e8d-graceful-fs-1-1-14 graceful-fs@1.1.14
+235 verbose lock graceful-fs@1.1.14 /Users/casearchu/.npm/2cf96e8d-graceful-fs-1-1-14.lock
+236 verbose read json /Users/casearchu/.npm/graceful-fs/1.1.14/package/package.json
+237 silly lockFile 2cf96e8d-graceful-fs-1-1-14 graceful-fs@1.1.14
+238 silly lockFile 2cf96e8d-graceful-fs-1-1-14 graceful-fs@1.1.14
+239 silly lockFile 0502dd56-graceful-fs-1-1 graceful-fs@~1.1
+240 silly lockFile 0502dd56-graceful-fs-1-1 graceful-fs@~1.1
+241 silly resolved [ { author:
+241 silly resolved      { name: 'Isaac Z. Schlueter',
+241 silly resolved        email: 'i@izs.me',
+241 silly resolved        url: 'http://blog.izs.me' },
+241 silly resolved     name: 'graceful-fs',
+241 silly resolved     description: 'fs monkey-patching to avoid EMFILE and other problems',
+241 silly resolved     version: '1.1.14',
+241 silly resolved     repository:
+241 silly resolved      { type: 'git',
+241 silly resolved        url: 'git://github.com/isaacs/node-graceful-fs.git' },
+241 silly resolved     main: 'graceful-fs.js',
+241 silly resolved     engines: { node: '>=0.4.0' },
+241 silly resolved     directories: { test: 'test' },
+241 silly resolved     scripts: { test: 'tap test/*.js' },
+241 silly resolved     keywords: [ 'fs', 'EMFILE', 'error', 'handling', 'monkeypatch' ],
+241 silly resolved     license: 'BSD',
+241 silly resolved     readme: 'Just like node\'s `fs` module, but it does an incremental back-off when\nEMFILE is encountered.\n\nUseful in asynchronous situations where one needs to try to open lots\nand lots of files.\n',
+241 silly resolved     readmeFilename: 'README.md',
+241 silly resolved     _id: 'graceful-fs@1.1.14',
+241 silly resolved     _from: 'graceful-fs@~1.1' } ]
+242 info install graceful-fs@1.1.14 into /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf
+243 info installOne graceful-fs@1.1.14
+244 verbose from cache /Users/casearchu/.npm/graceful-fs/1.1.14/package/package.json
+245 info /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs unbuild
+246 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs/package.json
+247 verbose tar unpack /Users/casearchu/.npm/graceful-fs/1.1.14/package.tgz
+248 silly lockFile 7c7d7954--rimraf-node-modules-graceful-fs /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs
+249 verbose lock /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs /Users/casearchu/.npm/7c7d7954--rimraf-node-modules-graceful-fs.lock
+250 silly lockFile df96e221-m-graceful-fs-1-1-14-package-tgz /Users/casearchu/.npm/graceful-fs/1.1.14/package.tgz
+251 verbose lock /Users/casearchu/.npm/graceful-fs/1.1.14/package.tgz /Users/casearchu/.npm/df96e221-m-graceful-fs-1-1-14-package-tgz.lock
+252 silly gunzTarPerm modes [ '755', '644' ]
+253 silly gunzTarPerm extractEntry package.json
+254 silly gunzTarPerm extractEntry .npmignore
+255 silly gunzTarPerm extractEntry README.md
+256 silly gunzTarPerm extractEntry LICENSE
+257 silly gunzTarPerm extractEntry graceful-fs.js
+258 silly gunzTarPerm extractEntry test/open.js
+259 verbose read json /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs/package.json
+260 silly lockFile 7c7d7954--rimraf-node-modules-graceful-fs /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs
+261 silly lockFile 7c7d7954--rimraf-node-modules-graceful-fs /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs
+262 silly lockFile df96e221-m-graceful-fs-1-1-14-package-tgz /Users/casearchu/.npm/graceful-fs/1.1.14/package.tgz
+263 silly lockFile df96e221-m-graceful-fs-1-1-14-package-tgz /Users/casearchu/.npm/graceful-fs/1.1.14/package.tgz
+264 info preinstall graceful-fs@1.1.14
+265 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs/package.json
+266 verbose readDependencies using package.json deps
+267 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs/package.json
+268 verbose readDependencies using package.json deps
+269 silly resolved []
+270 verbose about to build /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs
+271 info build /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs
+272 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules/graceful-fs/package.json
+273 verbose linkStuff [ false,
+273 verbose linkStuff   false,
+273 verbose linkStuff   false,
+273 verbose linkStuff   '/Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/node_modules' ]
+274 info linkStuff graceful-fs@1.1.14
+275 verbose linkBins graceful-fs@1.1.14
+276 verbose linkMans graceful-fs@1.1.14
+277 verbose rebuildBundles graceful-fs@1.1.14
+278 info install graceful-fs@1.1.14
+279 info postinstall graceful-fs@1.1.14
+280 verbose about to build /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf
+281 info build /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf
+282 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules/rimraf/package.json
+283 verbose linkStuff [ false,
+283 verbose linkStuff   false,
+283 verbose linkStuff   false,
+283 verbose linkStuff   '/Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/node_modules' ]
+284 info linkStuff rimraf@2.0.3
+285 verbose linkBins rimraf@2.0.3
+286 verbose linkMans rimraf@2.0.3
+287 verbose rebuildBundles rimraf@2.0.3
+288 verbose rebuildBundles [ 'graceful-fs' ]
+289 info install rimraf@2.0.3
+290 info postinstall rimraf@2.0.3
+291 verbose about to build /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs
+292 info build /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs
+293 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/package.json
+294 verbose linkStuff [ false,
+294 verbose linkStuff   false,
+294 verbose linkStuff   false,
+294 verbose linkStuff   '/Volumes/Data/Cloud/Project/github/node-pack/node_modules' ]
+295 info linkStuff phantomjs@1.9.0-2
+296 verbose linkBins phantomjs@1.9.0-2
+297 verbose link bins [ { phantomjs: './bin/phantomjs' },
+297 verbose link bins   '/Volumes/Data/Cloud/Project/github/node-pack/node_modules/.bin',
+297 verbose link bins   false ]
+298 verbose linkMans phantomjs@1.9.0-2
+299 verbose rebuildBundles phantomjs@1.9.0-2
+300 verbose rebuildBundles [ 'adm-zip', 'rimraf' ]
+301 info install phantomjs@1.9.0-2
+302 verbose unsafe-perm in lifecycle true
+303 silly exec sh "-c" "node install.js"
+304 silly sh,-c,node install.js,/Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs spawning
+305 info phantomjs@1.9.0-2 Failed to exec install script
+306 info /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs unbuild
+307 verbose from cache /Volumes/Data/Cloud/Project/github/node-pack/node_modules/phantomjs/package.json
+308 info preuninstall phantomjs@1.9.0-2
+309 info uninstall phantomjs@1.9.0-2
+310 verbose true,/Volumes/Data/Cloud/Project/github/node-pack/node_modules,/Volumes/Data/Cloud/Project/github/node-pack/node_modules unbuild phantomjs@1.9.0-2
+311 verbose /Volumes/Data/Cloud/Project/github/node-pack/node_modules/.bin,[object Object] binRoot
+312 info postuninstall phantomjs@1.9.0-2
+313 error phantomjs@1.9.0-2 install: `node install.js`
+313 error `sh "-c" "node install.js"` failed with 1
+314 error Failed at the phantomjs@1.9.0-2 install script.
+314 error This is most likely a problem with the phantomjs package,
+314 error not with npm itself.
+314 error Tell the author that this fails on your system:
+314 error     node install.js
+314 error You can get their info via:
+314 error     npm owner ls phantomjs
+314 error There is likely additional logging output above.
+315 error System Darwin 12.3.0
+316 error command "/Users/casearchu/.nvm/v0.10.0/bin/node" "/Users/casearchu/.nvm/v0.10.0/bin/npm" "install" "phantomjs"
+317 error cwd /Volumes/Data/Cloud/Project/github/node-pack
+318 error node -v v0.10.0
+319 error npm -v 1.2.14
+320 error code ELIFECYCLE
+321 verbose exit [ 1, true ]
